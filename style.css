@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.white-bg {
+  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 500px;
+  width: 732px; /* Fixed the width value */
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.left,
+.right {
+  height: 100%;
+  width: 50%;
+}
+
+.left {
+  border-radius: 40px;
+  background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  color: white;
+  position: relative;
+}
+
+.right {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 15px hsl(221, 100%, 96%);
+}
+
+.circle {
+  width: 175px;
+  height: 175px;
+  background: linear-gradient(
+    to top,
+    hsla(241, 72%, 46%, 0),
+    hsla(256, 72%, 46%, 1)
+  );
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 20%;
+  left: 50%; /* Set left to 50% to center horizontally */
+  transform: translateX(-50%); /* Adjust position */
+}
+
+.left p {
+  text-align: center;
+}
+
+.lp1 {
+  margin-top: 35px;
+  font-size: 23px;
+  opacity: 0.6;
+}
+
+.lp2 {
+  margin-top: 75px;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+}
+
+.lp3 {
+  opacity: 0.5;
+  position: absolute;
+  top: 197px;
+  margin-left: 157px;
+}
+
+.lp4 {
+  font-size: 30px;
+  position: absolute;
+  top: 280px;
+  margin-left: 145px;
+  margin-right: 145px;
+}
+
+.lp5 {
+  position: absolute;
+  top: 350px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+.first p {
+  color: hsl(224, 30%, 27%);
+  font-weight: 900;
+  font-size: 27px;
+}
+
+.reaction,
+.memory,
+.verbal,
+.visual {
+  background-color: #fff6f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second div {
+  height: 55px;
+  width: 80%;
+  margin: 15px 30px;
+}
+
+.rside,
+.lside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lside img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.reaction .lside p {
+  color: #fb969b;
+  font-weight: 500;
+}
+
+.memory .lside p {
+  color: rgb(245, 192, 91);
+  font-weight: 500;
+}
+
+.verbal .lside p {
+  color: rgb(128, 199, 181);
+  font-weight: 500;
+}
+
+.visual .lside p {
+  color: rgb(170, 170, 221);
+  font-weight: 500;
+}
+
+.rside p span {
+  color: hsl(224, 30%, 27%);
+  font-weight: 600;
+}
+
+.second .reaction,
+.second .memory,
+.second .verbal,
+.second .visual {
+  margin-right: 15px;
+}
+
+.first p {
+  margin-left: 30px;
+}
+
+button {
+  border: none;
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: hsl(241, 81%, 54%);
+}
