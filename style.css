@@ -104,11 +104,29 @@ body {
   font-size: 27px;
 }
 
-.reaction,
-.memory,
-.verbal,
-.visual {
+.reaction {
   background-color: #fff6f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.memory {
+  background-color: #fffbf2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verbal {
+  background-color: #f2fafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visual {
+  background-color: #f3f3fd;
   display: flex;
   justify-content: space-between;
   align-items: center;
