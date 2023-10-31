@@ -132,6 +132,10 @@ body {
   align-items: center;
 }
 
+.reaction, .memory, .verbal, .visual {
+  border-radius: 13px;
+}
+
 .second div {
   height: 55px;
   width: 80%;
